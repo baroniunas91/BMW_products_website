@@ -1,0 +1,284 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero {
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: block;
+}
+
+.hero nav {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.hero .main-title {
+    transform: translate(10%, 40%);
+    color: white;
+    min-height: 100vh;
+    width: 50%;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.about-bg {
+    background: #2a0000;
+    background: radial-gradient(circle, #2a0000 0%, black 43%);
+}
+
+.about {
+    padding: 50px 0;
+}
+
+.measure {
+    text-align: center;
+    align-self: center;
+}
+
+.measure .about-pic {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.about-description {
+    color: white;
+    font-size: 1.1rem;
+    text-align: justify;
+    width: 90%;
+}
+
+.about-description span {
+    font-weight: bold;
+}
+
+.about-description-pic {
+    text-align: center;
+    color: white;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+.second {
+    background: black;
+    background: linear-gradient(180deg, black 0%, rgba(118, 110, 110, 0.92445) 100%);
+}
+
+.second-title {
+    text-align: center;
+    padding: 10px;
+    padding-top: 70px;
+    color: white;
+    font-size: 1.5rem;
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+.second-title span {
+    font-weight: bold;
+}
+
+.caps-images {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+}
+
+.images {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+.caps-images a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    font-size: 0;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.caps-images a video {
+    display: block;
+    object-fit: cover;
+    margin: 0;
+    font-size: 0;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.caps-images a .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: none;
+    margin: 0px;
+}
+
+.caps-images a .overlay .play-button {
+    max-width: 40%;
+    display: none;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.caps-images a:hover .overlay {
+    display: flex;
+}
+
+.caps-images a:hover .overlay .play-button {
+    display: block;
+}
+
+.caps-images .video-description {
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+    align-self: center;
+    height: 100%;
+}
+
+.caps-images .product-code {
+    margin: 0;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.third {
+    background: black;
+    background: linear-gradient(0deg, black 0%, rgba(118, 110, 110, 0.92445) 100%);
+}
+
+.section-title {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 55px 0 0 0;
+    text-transform: uppercase;
+}
+
+.fourth {
+    background: black;
+    background: linear-gradient(180deg, black 0%, rgba(118, 110, 110, 0.92445) 100%);
+    padding-bottom: 50px;
+}
+
+.video-margin {
+    margin-bottom: 50px;
+}
+
+.fifth {
+    background: black;
+}
+
+.footer {
+    padding-bottom: 50px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer-title {
+    color: white;
+    padding-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+@media all and (max-width: 992px) {
+    .about-description {
+        width: 100%;
+    }
+    .measure .about-pic {
+        width: 70%;
+    }
+    .second-title {
+        width: 80%;
+    }
+    .footer-title {
+        width: 90%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .about {
+        padding: 10px 0;
+    }
+    .hero .main-title {
+        font-size: 2rem;
+        width: 70%;
+    }
+    .measure {
+        padding-top: 20px;
+    }
+    .caps-images .product-code {
+        font-size: 1rem;
+    }
+    .second-title {
+        width: 100%;
+        padding-top: 55px;
+    }
+    .footer {
+        padding: 0;
+    }
+    .footer-title {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 575px) {
+    .caps-images {
+        padding: 20px;
+    }
+    .section-title {
+        font-size: 1.4rem;
+        margin-top: 20px;
+    }
+    .second-title {
+        font-size: 1.3rem;
+        margin-top: 10px;
+        padding-top: 45px;
+    }
+    .video-margin {
+        margin-bottom: 20px;
+    }
+    .footer-title {
+        width: 80%;
+    }
+}
+/*# sourceMappingURL=style.css.map */
