@@ -17,6 +17,7 @@ body {
     background-image: url(../images/background.jpg);
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     min-height: 100vh;
     display: block;
 }
@@ -26,13 +27,25 @@ body {
 }
 
 .hero .main-title {
-    transform: translate(10%, 40%);
+    transform: translate(10%, 30%);
     color: white;
     min-height: 100vh;
     width: 50%;
     font-weight: bold;
     text-transform: uppercase;
     margin: 0;
+}
+
+.hero .main-title a {
+    background-color: #2E627C;
+    color: white;
+    padding: 10px 25px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.hero .main-title a:hover {
+    box-shadow: 0px 0px 30px #2E627C;
 }
 
 .about-bg {
