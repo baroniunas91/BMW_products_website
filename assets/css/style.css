@@ -210,14 +210,33 @@ body {
     text-decoration: none;
 }
 
+.footer a:hover .footer-title {
+    color: grey;
+}
+
+.footer a:hover .footer-title i {
+    color: grey;
+}
+
 .footer-title {
     color: white;
     padding-top: 10px;
     font-size: 1rem;
     text-align: center;
-    width: 55%;
+    width: 80%;
     margin: 0 auto;
     margin-bottom: 15px;
+}
+
+.footer-title i {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.contacts-block {
+    border-bottom: 1px solid #fff;
+    margin: 0;
+    padding: 30px 0;
 }
 
 @media all and (max-width: 992px) {
@@ -279,6 +298,12 @@ body {
     }
     .footer-title {
         width: 80%;
+    }
+}
+
+@media (max-width: 370px) {
+    .footer-title i {
+        display: none;
     }
 }
 /*# sourceMappingURL=style.css.map */

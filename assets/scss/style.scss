@@ -205,15 +205,33 @@ body {
   a {
   text-decoration: none;
   }
+  a:hover {
+    .footer-title {
+      color: grey;
+      i {
+        color: grey;
+      }
+    }
+  }
 }
 .footer-title {
   color: white;
   padding-top: 10px;
   font-size: 1rem;
   text-align: center;
-  width: 55%;
+  width: 80%;
   margin: 0 auto;
   margin-bottom: 15px;
+  i {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+}
+
+.contacts-block {
+  border-bottom: 1px solid #fff;
+  margin: 0;
+  padding: 30px 0;
 }
 
 @media all and (max-width: 992px) {
@@ -275,6 +293,14 @@ body {
   }
   .footer-title {
     width: 80%;
+  }
+}
+
+@media (max-width: 370px) {
+  .footer-title {
+    i {
+      display: none;
+    }
   }
 }
 
