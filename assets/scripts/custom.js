@@ -1,5 +1,14 @@
 "use strict";
 
+import dropDownMenuData from './data/dropdownMenuData.js';
+import caps_68_data from './data/caps_68_data.js';
+import caps_60_data from './data/caps_60_data.js';
+import caps_56_data from './data/caps_56_data.js';
+import badges_82_data from './data/badges_82_data.js';
+import badges_74_data from './data/badges_74_data.js';
+import renderDropDownMenu from './renderDropDownMenu.js';
+import renderCaps from './renderCaps.js';
+
 //Smooth scrolling
 $(document).ready(function () {
     // Add smooth scrolling to all links
@@ -58,3 +67,10 @@ $(document).ready(function () {
         animationEffect: "zoom",
     });
 })
+
+renderDropDownMenu('.dropdown-menu', dropDownMenuData);
+renderCaps('.wheel-caps-68', caps_68_data);
+renderCaps('.wheel-caps-60', caps_60_data);
+renderCaps('.wheel-caps-56', caps_56_data);
+renderCaps('.hood-badges-82', badges_82_data);
+renderCaps('.hood-badges-74', badges_74_data);
