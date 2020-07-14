@@ -6,8 +6,11 @@ import caps_60_data from './data/caps_60_data.js';
 import caps_56_data from './data/caps_56_data.js';
 import badges_82_data from './data/badges_82_data.js';
 import badges_74_data from './data/badges_74_data.js';
+import video_data from './data/video_data.js';
 import renderDropDownMenu from './renderDropDownMenu.js';
 import renderCaps from './renderCaps.js';
+import renderVideo from './renderVideo.js';
+
 
 //Smooth scrolling
 $(document).ready(function () {
@@ -74,3 +77,4 @@ renderCaps('.wheel-caps-60', caps_60_data);
 renderCaps('.wheel-caps-56', caps_56_data);
 renderCaps('.hood-badges-82', badges_82_data);
 renderCaps('.hood-badges-74', badges_74_data);
+renderVideo('.video-render', video_data);
