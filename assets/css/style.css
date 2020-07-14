@@ -41,6 +41,7 @@ body {
     padding: 10px 25px;
     font-size: 1rem;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .hero .main-title a:hover {
@@ -225,10 +226,12 @@ body {
 
 .footer a:hover .footer-title {
     color: grey;
+    transition: 0.3s;
 }
 
 .footer a:hover .footer-title i {
     color: grey;
+    transition: 0.3s;
 }
 
 .footer-title {
