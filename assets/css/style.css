@@ -161,6 +161,7 @@ body {
 
 .caps-images a:hover .overlay {
     display: flex;
+    animation: overlay 500ms;
 }
 
 .caps-images a:hover .overlay .play-button {
@@ -320,6 +321,15 @@ body {
 @media (max-width: 370px) {
     .footer-title i {
         display: none;
+    }
+}
+
+@keyframes overlay {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
 /*# sourceMappingURL=style.css.map */

@@ -156,6 +156,7 @@ body {
     }
     &:hover .overlay {
       display: flex;
+      animation: overlay 500ms;
       .play-button {
         display: block;
       }
@@ -313,6 +314,15 @@ body {
     i {
       display: none;
     }
+  }
+}
+
+@keyframes overlay {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
