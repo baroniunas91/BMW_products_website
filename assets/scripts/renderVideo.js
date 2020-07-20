@@ -27,7 +27,7 @@ function renderVideo(selector, data) {
                             Jūsų naršyklė nepalaiko vaizdo įrašų tag'ų.
                         </video>
                         <div class="overlay"><img class="play-button" src="assets/images/play.png" alt="play"></div>
-                        </a>
+                    </a>
                     <div class="video-description">${videoData.description}</div>
                 </div>`
     }
