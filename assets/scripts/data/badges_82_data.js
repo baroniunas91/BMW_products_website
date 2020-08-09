@@ -6,12 +6,12 @@ export default [
     },
     {
         gallery: 'gallery4',
-        path: './assets/images/BB68.jpg',
+        path: './assets/images/BB82.jpg',
         code: 'Kodas: BB82'
     },
     {
         gallery: 'gallery4',
-        path: './assets/images/FB68.jpg',
+        path: './assets/images/FB82.jpg',
         code: 'Kodas: FB82'
     },
     {

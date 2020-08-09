@@ -21,8 +21,8 @@ export default [
     },
     {
         gallery: 'gallery1',
-        path: './assets/images/BW68.jpg',
-        code: 'Kodas: BW68'
+        path: './assets/images/AP68.jpg',
+        code: 'Kodas: AP68'
     },
     {
         gallery: 'gallery1',

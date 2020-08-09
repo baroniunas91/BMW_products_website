@@ -6,7 +6,7 @@ export default [
     },
     {
         gallery: 'gallery5',
-        path: './assets/images/BB68.jpg',
+        path: './assets/images/BB74.jpg',
         code: 'Kodas: BB74'
     },
     {
